@@ -19,4 +19,4 @@ Step 4: run generate.js to generate JWT token
 
 Step 5: run verify.js to vetify the token
 
-    node verify.js
+    node verify.js JWT_TOKEN
