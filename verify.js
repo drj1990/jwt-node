@@ -31,7 +31,7 @@ var token = args['token']
 //path to public key
 var key = fs.readFileSync('public.pem')
 try {
-var decoded = jwt.verify(token, key,{issuer: 'test',algorithms:['RS256']});
+var decoded = jwt.verify(token, key,{issuer: 'mycompany inc.',algorithms:['RS256']});
 var myJSON = JSON.stringify(decoded);
 console.log('Decoded is ' +myJSON)
 }
