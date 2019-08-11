@@ -1,22 +1,7 @@
-# jwt-node
-Creating a JWT token in node js &amp; verifying the token after it has been issued.
+Welcome to the IFTTT Platform!
 
-Step 1: Generate the private key
+If you're reading this document on platform.ifttt.com, go ahead and click the _Remix to Edit_ button in the upper right hand corner.
 
-    openssl genrsa -out private.pem 2048
+That will clone this project and create your own version on your Glitch profile.
 
-Step 2: generate public key
-
-    openssl rsa -in private.pem -pubout > public.pem
-
-Step 3: install jsonwebtoken npm module
-
-    npm install jsonwebtoken
-
-Step 4: run generate.js to generate JWT token
-
-    node generate.js
-
-Step 5: run verify.js to vetify the token
-
-    node verify.js --token=JWT_TOKEN
+To follow along with the rest of this tutorial, join us in the documentation [here](https://platform.ifttt.com/docs/hello_world).
